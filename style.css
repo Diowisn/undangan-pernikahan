@@ -10,6 +10,7 @@ body {
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;
   min-height: 4000px;
+  scroll-behavior: smooth;
 }
 
 .hero::before {
@@ -85,7 +86,7 @@ body {
 
 .home {
   /* untuk backgorund home png */
-  background-image: url(assets/coba1.jpg);
+  background-image: url(assets/coba2.jpg);
   background-size: cover;
   min-height: 100vh;
   margin-top: -5rem;
