@@ -86,7 +86,7 @@ window.addEventListener("load", function () {
 
 // fitur get nama
 const urlParam = new URLSearchParams(window.location.search);
-const pronoun = urlParam.get("p") || "Bapa/ibu/Saudara/i";
+const pronoun = urlParam.get("p") || "Bapak/Ibu/Saudara/i";
 const nama = urlParam.get("n") || "";
 const namaCon = document.querySelector(".hero h4 span");
 namaCon.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ",");
