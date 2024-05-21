@@ -48,7 +48,7 @@ function enableScroll() {
 }
 
 function playAudio() {
-  song.volume = 0.5;
+  song.volume = 0.3;
   song.play();
   audioWrapper.style.display = "flex";
   isPlaying = true;

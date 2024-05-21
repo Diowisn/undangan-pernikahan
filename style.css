@@ -70,7 +70,8 @@ body {
 }
 
 .mynavbar .offcanvas {
-  height: 100vh;
+  height: 80vh;
+  width: 30vh;
 }
 
 .mynavbar .navbar-brand,
@@ -321,7 +322,7 @@ body {
 }
 
 .rsvp {
-  background-color: var(--bg);
+  background-color: #C7B7A3;
 }
 
 .rsvp h2 {
@@ -329,11 +330,11 @@ body {
 }
 
 .rsvp p {
-  color: white;
+  color: #6D2932;
 }
 
 .rsvp form label {
-  color: white;
+  color: #6D2932;
 }
 
 .rsvp button {
@@ -350,18 +351,18 @@ body {
 
 .footer {
   padding: 3rem;
-  background-color: var(--pink);
-  color: white;
+  background-color: #C7B7A3;
+  color: #71202b;
 }
 
 footer a {
-  color: var(--bg);
+  color: var(--pink);
   font-weight: bold;
   text-decoration: none;
 }
 
 footer a:hover {
-  color: white;
+  color: #c08b8b;
 }
 
 footer li {
